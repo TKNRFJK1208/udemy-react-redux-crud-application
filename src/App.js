@@ -1,8 +1,11 @@
-import React from 'react';
+import React, { Component } from 'react';
 
 function App() {
   return (
-    <h1>Hello, World!</h1>
+    <>
+      <labe htmlFor="bar">bar</labe>
+      <input type="text" onChange={()=>{console.log("I am clicked!")}} />
+    </>
   );
 }
 
